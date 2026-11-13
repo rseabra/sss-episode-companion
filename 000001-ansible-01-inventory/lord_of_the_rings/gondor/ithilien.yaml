@@ -1,0 +1,15 @@
+---
+all:
+  children:
+    middle_earth:
+      children:
+        gondor:
+          children:
+            ithilien:
+              vars:
+                status: ambushing
+              hosts:
+                mablung:
+                damrod:
+                anborn:
+...

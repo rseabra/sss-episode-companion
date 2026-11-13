@@ -6,24 +6,4 @@ all:
         gondor:
           vars:
             status: on_guard
-          children:
-            minas_tirith:
-              hosts:
-                denethor_ii:
-                  status: despairing
-                boromir:
-                  status: fallen
-                faramir:
-                beregond:
-                bergil:
-            ithilien:
-              vars:
-                status: ambushing
-              hosts:
-                mablung:
-                damrod:
-                anborn:
-            dol_amroth:
-              hosts:
-                prince_imrahil:
 ...

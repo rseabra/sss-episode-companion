@@ -1,0 +1,17 @@
+---
+all:
+  children:
+    middle_earth:
+      children:
+        rhovanion:
+          children:
+            lothlorien:
+              vars:
+                status: veiled
+              hosts:
+                galadriel:
+                celeborn:
+                haldir:
+                  status: vigilant
+                rumil:
+...

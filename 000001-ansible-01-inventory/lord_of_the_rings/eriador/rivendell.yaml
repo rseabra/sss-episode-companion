@@ -1,0 +1,17 @@
+---
+all:
+  children:
+    middle_earth:
+      children:
+        eriador:
+          children:
+            rivendell:
+              vars:
+                status: sanctuary
+              hosts:
+                elrond:
+                arwen:
+                glorfindel:
+                erestor:
+                lindir:
+...

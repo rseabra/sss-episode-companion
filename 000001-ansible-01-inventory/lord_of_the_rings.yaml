@@ -19,10 +19,10 @@ all:
                     - name: "One Ring"
                       burden: 99
                   allies:
-                    - "samwise_gamgee"
+                    - "samwise_gamgee
                     - "gandalf"
                   friends:
-                    - "meriadoc_brandybuck"
+                    - meriadoc_brandybuck"
                     - "peregrin_took"
                     - "rosie_cotton"
                     - "samwise_gamgee"

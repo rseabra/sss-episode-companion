@@ -1,0 +1,13 @@
+---
+all:
+  children:
+    middle_earth:
+      children:
+        mordor:
+          children:
+            barad_dur:
+              hosts:
+                sauron:
+                  status: searching
+                mouth_of_sauron:
+...

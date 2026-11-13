@@ -6,33 +6,4 @@ all:
         eriador:
           vars:
             status: peaceful
-          children:
-            the_shire:
-              vars:
-                realm_type: pastoral
-              hosts:
-                frodo_baggins:
-                  status: burdened
-                samwise_gamgee:
-                  status: loyal
-                meriadoc_brandybuck:
-                peregrin_took:
-                bilbo_baggins:
-                  status: retired
-                rosie_cotton:
-            bree_land:
-              hosts:
-                barliman_butterbur:
-                  status: distracted
-                bill_ferny:
-                  status: untrustworthy
-            rivendell:
-              vars:
-                status: sanctuary
-              hosts:
-                elrond:
-                arwen:
-                glorfindel:
-                erestor:
-                lindir:
 ...

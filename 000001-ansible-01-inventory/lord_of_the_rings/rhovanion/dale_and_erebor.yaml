@@ -1,0 +1,17 @@
+---
+all:
+  children:
+    middle_earth:
+      children:
+        rhovanion:
+          children:
+            dale_and_erebor:
+              vars:
+                status: fortified
+              hosts:
+                gimli:
+                  status: deployed
+                gloin:
+                king_dain_ii_ironfoot:
+                king_brand:
+...
