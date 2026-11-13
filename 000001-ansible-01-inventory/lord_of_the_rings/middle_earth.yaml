@@ -1,0 +1,9 @@
+---
+all:
+  children:
+    middle_earth:
+      vars:
+        universe: "Lord of the Rings"
+      hosts:
+        gandalf:
+...

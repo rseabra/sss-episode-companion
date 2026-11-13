@@ -1,0 +1,33 @@
+---
+all:
+  children:
+    middle_earth:
+      children:
+        rohan:
+          vars:
+            status: mobilised
+          children:
+            edoras:
+              hosts:
+                theoden:
+                  status: recovered
+                eowyn:
+                  status: defiant
+                eomer:
+                grima_wormtongue:
+                  status: traitor
+                hama:
+            helms_deep:
+              vars:
+                status: besieged
+              hosts:
+                gamling:
+                erkenbrand:
+            fangorn_border:
+              vars:
+                status: ancient
+              hosts:
+                treebeard:
+                  status: roused
+                quickbeam:
+...

@@ -1,0 +1,30 @@
+---
+all:
+  children:
+    middle_earth:
+      children:
+        mordor:
+          vars:
+            status: hostile
+          children:
+            barad_dur:
+              hosts:
+                sauron:
+                  status: searching
+                mouth_of_sauron:
+            minas_morgul:
+              vars:
+                status: cursed
+              hosts:
+                witch_king_of_angmar:
+                  status: marching
+                gothmog:
+            cirith_ungol:
+              hosts:
+                shelob:
+                  status: lurking
+                shagrat:
+                  status: infighting
+                gorbag:
+                  status: infighting
+...

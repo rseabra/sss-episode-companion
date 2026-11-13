@@ -1,0 +1,33 @@
+---
+all:
+  children:
+    middle_earth:
+      children:
+        rhovanion:
+          vars:
+            status: secluded
+          children:
+            lothlorien:
+              vars:
+                status: veiled
+              hosts:
+                galadriel:
+                celeborn:
+                haldir:
+                  status: vigilant
+                rumil:
+            mirkwood:
+              hosts:
+                thranduil:
+                legolas:
+                  status: deployed
+            dale_and_erebor:
+              vars:
+                status: fortified
+              hosts:
+                gimli:
+                  status: deployed
+                gloin:
+                king_dain_ii_ironfoot:
+                king_brand:
+...
