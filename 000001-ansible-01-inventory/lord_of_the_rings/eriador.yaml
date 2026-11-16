@@ -1,9 +1,0 @@
----
-all:
-  children:
-    middle_earth:
-      children:
-        eriador:
-          vars:
-            status: peaceful
-...
