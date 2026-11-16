@@ -1,0 +1,9 @@
+---
+all:
+  children:
+    middle_earth:
+      children:
+        gondor:
+          vars:
+            status: on_guard
+...

@@ -1,0 +1,14 @@
+---
+all:
+  children:
+    middle_earth:
+      children:
+        eriador:
+          children:
+            bree_land:
+              hosts:
+                barliman_butterbur:
+                  status: distracted
+                bill_ferny:
+                  status: untrustworthy
+...

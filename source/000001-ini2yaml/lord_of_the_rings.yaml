@@ -1,0 +1,155 @@
+---
+all:
+  children:
+    middle_earth:
+      vars:
+        universe: "Lord of the Rings"
+      hosts:
+        gandalf:
+      children:
+        eriador:
+          vars:
+            status: peaceful
+          children:
+            the_shire:
+              hosts:
+                frodo_baggins:
+                  status: burdened
+                  rings:
+                    - name: "One Ring"
+                      burden: 99
+                  allies:
+                    - "samwise_gamgee
+                    - "gandalf"
+                  friends:
+                    - meriadoc_brandybuck"
+                    - "peregrin_took"
+                    - "rosie_cotton"
+                    - "samwise_gamgee"
+                samwise_gamgee:
+                  status: loyal
+                meriadoc_brandybuck:
+                peregrin_took:
+                bilbo_baggins:
+                  status: retired
+                rosie_cotton:
+            bree_land:
+              hosts:
+                barliman_butterbur:
+                  status: distracted
+                bill_ferny:
+                  status: untrustworthy
+            rivendell:
+              vars:
+                status: sanctuary
+              hosts:
+                elrond:
+                arwen:
+                glorfindel:
+                erestor:
+                lindir:
+
+        rohan:
+          vars:
+            status: mobilised
+          children:
+            edoras:
+              hosts:
+                theoden:
+                  status: recovered
+                eowyn:
+                  status: defiant
+                eomer:
+                grima_wormtongue:
+                  status: traitor
+                hama:
+            helms_deep:
+              vars:
+                status: besieged
+              hosts:
+                gamling:
+                erkenbrand:
+            fangorn_border:
+              vars:
+                status: ancient
+              hosts:
+                treebeard:
+                  status: roused
+                quickbeam:
+
+        gondor:
+          vars:
+            status: on_guard
+          children:
+            minas_tirith:
+              hosts:
+                denethor_ii:
+                  status: despairing
+                boromir:
+                  status: fallen
+                faramir:
+                beregond:
+                bergil:
+            ithilien:
+              vars:
+                status: ambushing
+              hosts:
+                mablung:
+                damrod:
+                anborn:
+            dol_amroth:
+              hosts:
+                prince_imrahil:
+
+        rhovanion:
+          vars:
+            status: secluded
+          children:
+            lothlorien:
+              vars:
+                status: veiled
+              hosts:
+                galadriel:
+                celeborn:
+                haldir:
+                  status: vigilant
+                rumil:
+            mirkwood:
+              hosts:
+                thranduil:
+                legolas:
+                  status: deployed
+            dale_and_erebor:
+              vars:
+                status: fortified
+              hosts:
+                gimli:
+                  status: deployed
+                gloin:
+                king_dain_ii_ironfoot:
+                king_brand:
+
+        mordor:
+          vars:
+            status: hostile
+          children:
+            barad_dur:
+              hosts:
+                sauron:
+                  status: searching
+                mouth_of_sauron:
+            minas_morgul:
+              vars:
+                status: cursed
+              hosts:
+                witch_king_of_angmar:
+                  status: marching
+                gothmog:
+            cirith_ungol:
+              hosts:
+                shelob:
+                  status: lurking
+                shagrat:
+                  status: infighting
+                gorbag:
+                  status: infighting

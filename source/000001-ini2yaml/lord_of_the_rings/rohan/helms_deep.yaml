@@ -1,0 +1,14 @@
+---
+all:
+  children:
+    middle_earth:
+      children:
+        rohan:
+          children:
+            helms_deep:
+              vars:
+                status: besieged
+              hosts:
+                gamling:
+                erkenbrand:
+...

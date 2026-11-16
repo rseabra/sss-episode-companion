@@ -1,0 +1,16 @@
+---
+all:
+  children:
+    middle_earth:
+      children:
+        mordor:
+          children:
+            cirith_ungol:
+              hosts:
+                shelob:
+                  status: lurking
+                shagrat:
+                  status: infighting
+                gorbag:
+                  status: infighting
+...

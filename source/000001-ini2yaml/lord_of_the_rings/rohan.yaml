@@ -1,0 +1,9 @@
+---
+all:
+  children:
+    middle_earth:
+      children:
+        rohan:
+          vars:
+            status: mobilised
+...

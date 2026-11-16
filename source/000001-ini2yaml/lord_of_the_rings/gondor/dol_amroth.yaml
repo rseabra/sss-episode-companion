@@ -1,0 +1,11 @@
+---
+all:
+  children:
+    middle_earth:
+      children:
+        gondor:
+          children:
+            dol_amroth:
+              hosts:
+                prince_imrahil:
+...
